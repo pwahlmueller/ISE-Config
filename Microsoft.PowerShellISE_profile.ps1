@@ -1,5 +1,7 @@
-Import-Module PsISEProjectExplorer
-Import-Module powershellhumanizer
+if (Get-Module -ListAvailable PsISEProjectExplorer)
+{Import-Module PsISEProjectExplorer}
+if (Get-Module -ListAvailable powershellhumanizer)
+{Import-Module powershellhumanizer}
 
 Function prompt {
     # .Description
