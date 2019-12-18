@@ -27,4 +27,4 @@ These prerequisits are optional.
 - PowerShell PsISEProjectExplorer
 
 # Example
-![prompt example](2019-12-18-18-29-03promptexample.png)
+![prompt example](images\images/2019-12-18-18-29-03promptexample.png)
