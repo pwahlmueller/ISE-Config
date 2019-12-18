@@ -1,6 +1,8 @@
-# ISE Config
+# Config
 
-The ISE Config with some benefits.
+Two PowerShell Configs with some benefits. Main benefit is the last execution time, which I find very useful to automate.
+- My actual Config (psconfig.ps1)
+- My previous ISE config (Microsoft.PowerShellISE_profile.ps1)
 
 ## Titlebar
 - Actual time
@@ -16,7 +18,7 @@ The ISE Config with some benefits.
 
 # Install Config
 
-You have to copy the file to [Userpath]\Documents\ISE-Config\Microsoft.PowerShellISE_profile.ps1
+To use the Config for all powershell consoles, use the path in $profile.CurrentUserAllHosts. In the current console you can use the variable $profile to find out all possible profile files.
 
 # Prerequesits
 These prerequisits are optional.
